@@ -42,18 +42,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="25" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="finish"
-            android:text="GO BACK" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="15" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

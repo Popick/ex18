@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         settings=getSharedPreferences("PREFS_NAME",MODE_PRIVATE);
 
+        si = new Intent(this,Credits.class);
 
         tV = (TextView) findViewById(R.id.textView);
         eT = (EditText) findViewById(R.id.username);
